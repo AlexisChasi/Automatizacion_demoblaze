@@ -64,6 +64,9 @@ el reporte se genera en una carpeta especifica al momento de ejecutar el test
 
 Este proyecto utiliza Selenium WebDriver para interactuar con el navegador y Cucumber para escribir y ejecutar escenarios de prueba en lenguaje natural. Asegúrate de tener conexión a Internet durante la ejecución de los tests para cargar recursos externos necesarios.
 
+# Ejecucion de la prueba
+
+![image](https://github.com/user-attachments/assets/56790f6a-f67b-4f42-ac75-379d711a5373)
 
 
 
