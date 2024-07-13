@@ -14,5 +14,10 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
   
   1- Clonar el repositorio:
   
-  git clone https://github.com/AlexisChasi/NTTDATA.git
+  - git clone https://github.com/AlexisChasi/NTTDATA.git
+
+2- Compilar el proyecto:
+  - mvn install -DskipTests (descarga todas las dependencias del POM)
+
+
 
