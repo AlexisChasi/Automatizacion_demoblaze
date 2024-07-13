@@ -1,0 +1,50 @@
+Este ejercicio muestra un flujo de compra automatizado para el sitio web Demoblaze utilizando Cucumber con Java y Selenium WebDriver, organizado con Serenity BDD. 
+
+Análisis del Código
+Estructura de Carpetas y Archivos:
+
+El código está organizado en paquetes claros (stepsdefinitions, steps, page,runner,feature) para mantener la separación de responsabilidades y facilitar la escalabilidad y mantenibilidad del proyecto.
+Uso de Serenity BDD:
+
+La arquitectura de Serenity BDD se implementa para mejorar la legibilidad y modularidad del código, utilizando actores y tareas para representar las interacciones del usuario con la aplicación.
+Configuración del Entorno:
+
+Se utiliza un @Before hook para inicializar el WebDriver antes de cada escenario (setUp()), asegurándose de que el navegador esté maximizado y listo para ejecutar las pruebas.
+Definición de Steps (Given, When, Then, And):
+
+Cada paso de los escenarios de Cucumber está implementado como métodos anotados con las correspondientes expresiones de Cucumber (@Given, @When, @Then, @And), lo que permite una clara separación de las acciones del usuario y las verificaciones.
+Captura de Pantalla (screenShot()):
+
+Se implementa un método screenShot() para capturar evidencias en forma de imágenes en cada paso importante del escenario, utilizando el método attach() de Cucumber para adjuntar las capturas al reporte de ejecución.
+Interacción con Páginas Web (DemoBlazePage):
+
+La clase DemoBlazePage contiene localizadores (By) para los elementos clave de la página de Demoblaze, facilitando la interacción mediante acciones como hacer clic, ingresar texto y verificar la presencia de elementos.
+Manejo de Alertas:
+
+Se implementa el manejo de alertas utilizando WebDriverWait y ExpectedConditions para esperar y aceptar alertas cuando sea necesario durante las interacciones con la aplicación.
+Verificación de Resultados (verificarCompra()):
+
+Al final del escenario, se verifica la confirmación de la compra mostrando un mensaje específico, validando que la orden se haya realizado correctamente.
+Conclusiones y Recomendaciones
+
+Esperas Explícitas: El uso de WebDriverWait y ExpectedConditions asegura que las interacciones con la aplicación web sean robustas y manejen correctamente los tiempos de carga y eventos asíncronos.
+
+Documentación y Comentarios: Aunque el código es claro, agregar comentarios adicionales en áreas complejas o críticas podría beneficiar a otros desarrolladores que revisen o mantengan el código en el futuro.
+
+Pruebas y Validaciones: Es esencial expandir las verificaciones (assertions) para asegurar que todos los aspectos del flujo de compra sean validados, como la cantidad de productos en el carrito, detalles del pedido, etc.
+
+Reportes y Evidencias: Asegúrate de que los reportes generados por Serenity BDD incluyan todas las evidencias necesarias (capturas de pantalla) para una fácil identificación y solución de problemas.
+
+Hallazgos y Áreas de Mejora:
+Dependencia Directa con WebDriver:
+
+La clase DemoBlazeStep depende directamente de WebDriver, lo que puede complicar la reutilización del código en diferentes configuraciones de prueba. Se recomienda considerar la inyección de dependencias para mejorar la flexibilidad y el mantenimiento.
+Refactorización de la Lógica de Negocio:
+
+Aunque funcional, algunos steps podrían refactorizarse para mover la lógica de negocio fuera de los métodos de steps hacia métodos más específicos en DemoBlazeStep, manteniendo los steps centrados en las interacciones con la interfaz de usuario.
+Gestión Mejorada de Datos:
+
+Aunque se utilizan DataTables de Cucumber para pasar datos dinámicos, se podría mejorar la gestión de datos con validación de entradas y manejo de excepciones más robusto para mejorar la fiabilidad de las pruebas.
+Mejora en el Manejo de Errores:
+
+Actualmente, los errores se manejan de manera genérica con RuntimeException. Sería beneficioso implementar manejo de errores más específico para mejorar la depuración y la comprensión de los problemas durante la ejecución de pruebas.
