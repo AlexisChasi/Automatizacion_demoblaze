@@ -42,8 +42,10 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
 el reporte se genera en una carpeta especifica al momento de ejecutar el test
 
 - target/cucumber/cucumber-report.html
-
+- y se genera con las evidencias por cada paso del gherking
   ![image](https://github.com/user-attachments/assets/ac69c100-79db-4f0f-8316-dd83239cddd4)
+  ![image](https://github.com/user-attachments/assets/5b095503-36a3-4cd4-b40e-6fa8564f8c56)
+
 
   
 # Información adicional
