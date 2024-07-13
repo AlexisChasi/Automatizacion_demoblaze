@@ -1,5 +1,5 @@
 # NTTDATA EJERCICIO AUTOMATIZACION
-Este proyecto contiene automatización de pruebas utilizando Selenium WebDriver y Cucumber para el QA Lab de NTT DATA.
+Este proyecto contiene automatización de pruebas utilizando Selenium WebDriver y Cucumber  NTT DATA.
 
 # Prerequisitos
 Asegúrate de tener las siguientes herramientas y versiones instaladas en tu máquina local:
