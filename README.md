@@ -10,7 +10,8 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 * JDK versión 11.0.20 (debe estar configurado en la variable de entorno JAVA_HOME)
   
 # Comandos de instalación
-* Para configurar tu entorno de desarrollo, sigue estos pasos:
-  #1- Clonar el repositorio:
+* Para configurar tu entorno de desarrollo, sigue estos pasos
+  
+  1- Clonar el repositorio:
   git clone https://github.com/AlexisChasi/NTTDATA.git
 
