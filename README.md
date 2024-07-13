@@ -38,7 +38,9 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
     ![image](https://github.com/user-attachments/assets/0738c8b3-9984-423e-b1c6-ced8dfee94e2)
 
   
+# Información adicional
 
+Este proyecto utiliza Selenium WebDriver para interactuar con el navegador y Cucumber para escribir y ejecutar escenarios de prueba en lenguaje natural. Asegúrate de tener conexión a Internet durante la ejecución de los tests para cargar recursos externos necesarios.
 
 
 
