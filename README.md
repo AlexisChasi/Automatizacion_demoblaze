@@ -18,6 +18,9 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 
 2- Compilar el proyecto:
   - mvn install -DskipTests (descarga todas las dependencias del POM)
+  - o dar click en la parte derecha  en MAVEN y Reload all maven projects
+![image](https://github.com/user-attachments/assets/dd63cca2-9825-40ac-ac64-5467f8f57120)
+
 
 
 
