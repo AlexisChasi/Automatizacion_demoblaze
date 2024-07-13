@@ -17,8 +17,8 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 - git clone https://github.com/AlexisChasi/NTTDATA.git
 
 2- Compilar el proyecto:
-  - mvn install -DskipTests (descarga todas las dependencias del POM)
-  - o dar click en la parte derecha  en MAVEN y Reload all maven projects
+- una vez clonado el repositorio ejecutar  mvn install -DskipTests (descarga todas las dependencias del POM)
+- o dar click en la parte derecha  en MAVEN y Reload all maven projects
 ![image](https://github.com/user-attachments/assets/dd63cca2-9825-40ac-ac64-5467f8f57120)
 
 # Instrucciones para ejecutar los test
@@ -37,6 +37,11 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
 
     ![image](https://github.com/user-attachments/assets/0738c8b3-9984-423e-b1c6-ced8dfee94e2)
 
+# REPORTE
+
+el reporte se genera en una carpeta especifica al momento de ejecutar el test
+
+- target/cucumber/cucumber-report.html
   
 # Información adicional
 
