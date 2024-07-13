@@ -31,7 +31,7 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
 # src/test/java/com/nttdata/runner/RunnerTest.java
  
   ![image](https://github.com/user-attachments/assets/6fac4eaf-03bd-4045-8d4a-14e3a24e0b64)
-- click en Publick class RunnerTest y Run 'Runner Test' debe estar especificado en el tag
+- click en Public class RunnerTest y Run 'Runner Test' debe estar especificado en el tag
 
   - tags = "@DemoBlaze"
 
