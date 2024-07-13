@@ -42,6 +42,9 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
 el reporte se genera en una carpeta especifica al momento de ejecutar el test
 
 - target/cucumber/cucumber-report.html
+
+  ![image](https://github.com/user-attachments/assets/ac69c100-79db-4f0f-8316-dd83239cddd4)
+
   
 # Información adicional
 
