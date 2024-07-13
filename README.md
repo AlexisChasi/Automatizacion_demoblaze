@@ -27,7 +27,7 @@ Para ejecutar las pruebas automatizadas, sigue estos pasos:
 - Abre el proyecto en IntelliJ IDEA.
 - Configura el entorno de ejecución para ejecutar los tests de Cucumber.
 - Ejecuta los tests desde IntelliJ IDEA o utilizando Maven:
-- 0 dirigete al archivo RunnerTest #src/test/java/com/nttdata/runner/RunnerTest.java
+- O dirigete al archivo RunnerTest # src/test/java/com/nttdata/runner/RunnerTest.java
  
   ![image](https://github.com/user-attachments/assets/6fac4eaf-03bd-4045-8d4a-14e3a24e0b64)
 
