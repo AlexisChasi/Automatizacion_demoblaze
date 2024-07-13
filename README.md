@@ -16,9 +16,13 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 1- Clonar el repositorio:
   
 - git clone https://github.com/AlexisChasi/NTTDATA.git
-- descargar el cromedriver y colocarlo en la ruta especificada
+- descargar el cromedriver y colocarlo en la ruta especificada y de la arquitectura del ordenador en este caso de 64bits
 
   ![image](https://github.com/user-attachments/assets/0474d1fb-c7b0-4086-b74a-b8be24f13ed9)
+  https://googlechromelabs.github.io/chrome-for-testing/
+
+  ![image](https://github.com/user-attachments/assets/c29ec796-afbf-4f4a-a31e-9e3d2549be68)
+
 
 
 2- Compilar el proyecto:
