@@ -4,6 +4,7 @@ Este proyecto contiene automatización de pruebas utilizando Selenium WebDriver 
 # Prerequisitos
 Asegúrate de tener las siguientes herramientas y versiones instaladas en tu máquina local:
 
+
 # Maquina local con el sistema operativo Windows 10
 * IDE IntelliJ IDEA versión 2023.1 o superior
 * Apache Maven versión 3.9.8 (debe estar configurado en la variable de entorno PATH)
@@ -15,6 +16,10 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 1- Clonar el repositorio:
   
 - git clone https://github.com/AlexisChasi/NTTDATA.git
+- descargar el cromedriver y colocarlo en la ruta especificada
+
+  ![image](https://github.com/user-attachments/assets/0474d1fb-c7b0-4086-b74a-b8be24f13ed9)
+
 
 2- Compilar el proyecto:
 - una vez clonado el repositorio ejecutar  mvn install -DskipTests (descarga todas las dependencias del POM)
@@ -53,6 +58,8 @@ el reporte se genera en una carpeta especifica al momento de ejecutar el test
 # Información adicional
 
 Este proyecto utiliza Selenium WebDriver para interactuar con el navegador y Cucumber para escribir y ejecutar escenarios de prueba en lenguaje natural. Asegúrate de tener conexión a Internet durante la ejecución de los tests para cargar recursos externos necesarios.
+
+
 
 
 
