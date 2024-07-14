@@ -2,7 +2,12 @@
 
 realice la automatizacion de las 2 maneras que nos enseñaron adjunto el repositorio de DemoBlaze en SCREENPLAY
 
-https://github.com/AlexisChasi/screenplay_DemoBlaze.git
+- https://github.com/AlexisChasi/screenplay_DemoBlaze.git
+
+
+
+
+
 
 # NTTDATA EJERCICIO AUTOMATIZACION
 Este proyecto contiene automatización de pruebas utilizando Selenium WebDriver y Cucumber  NTT DATA.
